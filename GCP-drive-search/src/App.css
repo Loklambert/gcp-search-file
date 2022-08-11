@@ -95,6 +95,10 @@ h3{
 
 }
 
+#openicon{
+  margin-left: 260px;
+}
+
 /* loader css */
 .loader {
   border: 8px solid #f3f3f3;
