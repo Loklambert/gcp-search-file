@@ -14,7 +14,7 @@ const DisplayList = ({filelist}) => {
            {  filelist.length > 0 ?
                 filelist.map(
                     file =>(
-                        <ol key={file.id}>{file.name}<a href={`https://www.googleapis.com/drive/v3/files/${file.id}` }><span id='openicon'className="material-symbols-outlined" target="_blank">open_in_browser</span></a>
+                        <ol key={file.id}>{file.name}<a  target="_blank"  href={`https://www.googleapis.com/drive/v3/files/${file.id}` }><span id='openicon'className="material-symbols-outlined" >open_in_browser</span></a>
                         </ol>
                     )
                 ) : ''
